@@ -8,9 +8,6 @@ def daily_temperatures(temperatures):
             answer[prev_day] = cur_day - prev_day
         stack.append((cur_day, cur_temp))
     return answer
-            
-
-
 
 print(daily_temperatures([73, 74, 75, 71, 69, 72, 76, 73]))
 print(daily_temperatures([30, 40, 50, 60]))
