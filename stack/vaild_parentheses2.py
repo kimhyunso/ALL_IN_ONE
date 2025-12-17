@@ -13,3 +13,6 @@ def is_valid(s):
         elif not stack or stack.pop() != p:
             return False
     return not stack
+
+
+print(is_valid(")(){}"))

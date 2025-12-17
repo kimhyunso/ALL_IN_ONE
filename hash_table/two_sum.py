@@ -7,7 +7,8 @@ def two_sum(nums, target):
         key_num = target - num
         # O(1)
         if key_num in dict and num != key_num:
-            return True    
+            return True
+        # if key_num in nums: O(n)
     return False
 
 
